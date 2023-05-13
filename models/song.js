@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://0.0.0.0:27017/mindx')
+mongoose.connect('mongodb+srv://nggiang141:Agera141@cluster0.inysgaa.mongodb.net/mindx')
 
 const songSchema = new mongoose.Schema({
     name: String,
